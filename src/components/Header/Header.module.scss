@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: center;
+
+    .header_logo-container {
+        width: 82px;
+        height: 89px;
+        position: relative;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+
+        img {
+            position: absolute;
+        }
+
+        .header_non-draggable {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+    }
+}
